@@ -1,0 +1,18 @@
+.header__logo {
+    background-image: linear-gradient(to bottom, rgba(0, 192, 253, 1), rgba(231, 15, 170, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    z-index: 2;
+    line-height: 1.2;
+}
+span {
+    font-weight: 500;
+}
+span:last-child {
+    align-self: center;
+}

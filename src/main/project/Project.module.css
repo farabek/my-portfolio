@@ -1,0 +1,34 @@
+.project {
+    padding-top: 200px;
+}
+@media (max-width: 1120px) {
+    .project {
+        padding-top: 170px;
+    }
+}
+@media (max-width: 840px) {
+    .project {
+        padding-top: 120px;
+    }
+}
+@media (max-width: 540px) {
+    .project {
+        padding-top: 90px;
+    }
+}
+.project__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.project__cards {
+    display: flex;
+    column-gap: 50px;
+    row-gap: 65px;
+    flex-wrap: wrap;
+}
+@media (max-width: 540px) {
+    .project__cards {
+        row-gap: 30px;
+    }
+}
