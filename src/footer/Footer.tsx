@@ -15,7 +15,7 @@ export const Footer = () => {
           <div className={style.footer__contacts}>
             <ul className={style.footer__list}>
               <li>
-                <a href="tel:+998901211025">+998901211025</a>
+                <a href="tel:+998990471025">+998990471025</a>
               </li>
               <li>
                 <a href="mailto:farhodmuhamadiev4@gmail.com">farhodmuhamadiev4@gmail.com</a>
