@@ -1,32 +1,23 @@
 import React from 'react';
-import style from './Main.module.css'
-import {Home} from './home/Home';
-import {About} from './about/About';
-import {Skills} from './skills/Skills';
-import {Project} from './project/Project';
-import {Contacts} from './contacts/Contacts';
-
-
+import style from './Main.module.css';
+import { Home } from './home/Home';
+import { About } from './about/About';
+import { Skills } from './skills/Skills';
+import { Project } from './project/Project';
+import { Contacts } from './contacts/Contacts';
+import { GoTopBtn } from './componets/GoTopBtn';
 
 export const Main = () => {
-    return (
-        <main className={style.main}  id="home">
-            <div className={style.main__container}>
-                <Home/>
-                <About
-                    id="about"
-                />
-                <Skills
-                    id="skills"
-                />
-                <Project
-                    id="project"
-                />
-                <Contacts
-                    id="contacts"
-                />
-            </div>
-        </main>
-    );
+  return (
+    <main className={style.main} id="home">
+      <div className={style.main__container}>
+        <Home />
+        <About id="about" />
+        <Skills id="skills" />
+        <Project id="project" />
+        <Contacts id="contacts" />
+      </div>
+      <GoTopBtn />
+    </main>
+  );
 };
-

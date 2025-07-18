@@ -14,10 +14,31 @@ export const Home = () => {
         <span className={style.main__title_gradient}>Farhod Mukhamadiev</span>
         <span>I am a Frontend Developer</span>
       </h1>
+
+      {/* <a
+        href="https://farabek.github.io/my-resume/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={style.resumeBtn}
+      >
+        📄 View Resume
+      </a> */}
+
+      <div className={style.resume__wrapper}>
+        <a
+          href="https://farabek.github.io/my-resume/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={style.resumeBtn}
+        >
+          <span className={style.resumeIcon}>📄</span> View Resume
+        </a>
+      </div>
+
       <div className={style.main__photo}>
         <picture>
           <source srcSet={imageWebp} type="image/webp" />
-          <img src={imageJpg} alt="My photo" />
+          <img src={imageJpg} alt="Frontend developer Farhod" />
         </picture>
       </div>
     </div>
