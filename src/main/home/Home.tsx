@@ -26,7 +26,8 @@ export const Home = () => {
 
       <div className={style.resume__wrapper}>
         <a
-          href="https://farabek.github.io/my-resume/"
+          href="https://farabek.github.io/resume/"
+          // href="https://farabek.github.io/my-resume/"
           target="_blank"
           rel="noopener noreferrer"
           className={style.resumeBtn}
