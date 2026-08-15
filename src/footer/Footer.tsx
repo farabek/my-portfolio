@@ -54,7 +54,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className={style.footer__label}>
-          Developed by Farhod Mukhamadiev in 2024
+          Developed by Farhod Muhamadiev in 2024
         </div>
       </div>
     </footer>

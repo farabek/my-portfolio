@@ -13,7 +13,7 @@ export const Text = (props: TextProps) => {
         <li>Education:</li>
         <li className={style.text__education}>
           <span>Tajik State University:</span>
-          <span>Economist</span>
+          <span>Planning and Economics, 1985–1992</span>
         </li>
         <li className={style.text__education}>
           <span>IT-Incubator:</span>
