@@ -11,7 +11,7 @@ export const Home = () => {
           Hi <span className={style.main__title_smiley}>&#x1F44B;</span>,
         </span>
         <span>My name is</span>
-        <span className={style.main__title_gradient}>Farhod Mukhamadiev</span>
+        <span className={style.main__title_gradient}>Farhod Muhamadiev</span>
         <span>I am a Frontend Developer</span>
       </h1>
 
